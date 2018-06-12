@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test the possibleMatches matches the snapshot 1`] = `
+Array [
+  Object {
+    "match": "P = 2l + 2w",
+    "value": "Rectangle Perimeter",
+  },
+  Object {
+    "match": "A = lw",
+    "value": "Rectangle Area",
+  },
+  Object {
+    "match": "P = 2a + 2b",
+    "value": "Parallelogram Perimeter",
+  },
+  Object {
+    "match": "A = bh",
+    "value": "Parallelogram Area",
+  },
+  Object {
+    "match": "P = b + a + B + d",
+    "value": "Trapezoid Perimeter",
+  },
+  Object {
+    "match": "A = ½h(B+b)",
+    "value": "Trapezoid Area",
+  },
+  Object {
+    "match": "P = s₁ + s₂ + s₃",
+    "value": "Triangle Perimeter",
+  },
+  Object {
+    "match": "A = ½bh",
+    "value": "Triangle Area",
+  },
+  Object {
+    "match": "a + b + c = 180°",
+    "value": "Triangle Angle",
+  },
+  Object {
+    "match": "SA = 2lw + 2wh + 2lh",
+    "value": "Rectangular Solid Surface Area",
+  },
+  Object {
+    "match": "V = lwh",
+    "value": "Rectangular Solid Volume",
+  },
+  Object {
+    "match": "P = 2πr ",
+    "value": "Circle Circumference",
+  },
+  Object {
+    "match": "A = πr²",
+    "value": "Circle Area",
+  },
+  Object {
+    "match": "LSA = 2πrh",
+    "value": "Cylinder Lateral Surface Area",
+  },
+  Object {
+    "match": "SA = 2πrh + 2πr²",
+    "value": "Cylinder Surface Area",
+  },
+  Object {
+    "match": "V = πr²h",
+    "value": "Cylinder Volume",
+  },
+  Object {
+    "match": "LSA = πrl",
+    "value": "Cone Lateral Surface Area",
+  },
+  Object {
+    "match": "SA = πr² + πrl",
+    "value": "Cone Surface Area",
+  },
+  Object {
+    "match": "V =¹/₃πr²h",
+    "value": "Cone Volume",
+  },
+  Object {
+    "match": "SA = 4πr²",
+    "value": "Sphere Surface Area",
+  },
+  Object {
+    "match": "V =⁴/₃πr³",
+    "value": "Sphere Volume",
+  },
+  Object {
+    "match": "V = 0.01p + 0.05n + 0.1d + 0.25q",
+    "value": "Money Totals",
+  },
+  Object {
+    "match": "C° = ⁵/₉(F° - 32)",
+    "value": "Temperature Conversion",
+  },
+  Object {
+    "match": "rt = d",
+    "value": "Distance Rate",
+  },
+  Object {
+    "match": "T = rP",
+    "value": "Percentage",
+  },
+  Object {
+    "match": "A = P(1 + r)ʸ",
+    "value": "Interest",
+  },
+]
+`;

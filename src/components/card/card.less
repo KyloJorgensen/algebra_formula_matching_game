@@ -1,0 +1,32 @@
+.card {
+    min-height: 200px;
+    background-color: #d2d2d2;
+    text-align: center;
+    position: relative;
+    > * {
+        margin: 0;
+        width: 90%;
+        font-size: 2em;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.card:hover {
+    background-color: #737272;
+}
+
+.card.selected, .card.selected:hover {
+    background-color: #e5f5e5;
+}
+
+.card.matched, .card.matched:hover {
+    background-color: #a5e8a5;
+}
+
+.card.not-matched, .card.not-matched:hover {
+    background-color: red;
+    color: white;
+}

@@ -1,0 +1,301 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Header should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Header
+    matches={12}
+    newGame={[Function]}
+    onChange={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1>
+          Alegbra Formula Matching Game
+        </h1>,
+        <div
+          className="total-matches-wrapper"
+        >
+          <div>
+            <label
+              htmlFor="total-matches"
+            >
+              Total Matches
+            </label>
+            <input
+              id="total-matches"
+              onChange={[Function]}
+              type="number"
+              value={12}
+            />
+          </div>
+        </div>,
+        <button
+          className="new-game"
+          onClick={[Function]}
+        >
+          New Game
+        </button>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Alegbra Formula Matching Game",
+        },
+        "ref": null,
+        "rendered": "Alegbra Formula Matching Game",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div>
+            <label
+              htmlFor="total-matches"
+            >
+              Total Matches
+            </label>
+            <input
+              id="total-matches"
+              onChange={[Function]}
+              type="number"
+              value={12}
+            />
+          </div>,
+          "className": "total-matches-wrapper",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <label
+                htmlFor="total-matches"
+              >
+                Total Matches
+              </label>,
+              <input
+                id="total-matches"
+                onChange={[Function]}
+                type="number"
+                value={12}
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Total Matches",
+                "htmlFor": "total-matches",
+              },
+              "ref": null,
+              "rendered": "Total Matches",
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "id": "total-matches",
+                "onChange": [Function],
+                "type": "number",
+                "value": 12,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+          ],
+          "type": "div",
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "New Game",
+          "className": "new-game",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "New Game",
+        "type": "button",
+      },
+    ],
+    "type": "header",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1>
+            Alegbra Formula Matching Game
+          </h1>,
+          <div
+            className="total-matches-wrapper"
+          >
+            <div>
+              <label
+                htmlFor="total-matches"
+              >
+                Total Matches
+              </label>
+              <input
+                id="total-matches"
+                onChange={[Function]}
+                type="number"
+                value={12}
+              />
+            </div>
+          </div>,
+          <button
+            className="new-game"
+            onClick={[Function]}
+          >
+            New Game
+          </button>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Alegbra Formula Matching Game",
+          },
+          "ref": null,
+          "rendered": "Alegbra Formula Matching Game",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div>
+              <label
+                htmlFor="total-matches"
+              >
+                Total Matches
+              </label>
+              <input
+                id="total-matches"
+                onChange={[Function]}
+                type="number"
+                value={12}
+              />
+            </div>,
+            "className": "total-matches-wrapper",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <label
+                  htmlFor="total-matches"
+                >
+                  Total Matches
+                </label>,
+                <input
+                  id="total-matches"
+                  onChange={[Function]}
+                  type="number"
+                  value={12}
+                />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Total Matches",
+                  "htmlFor": "total-matches",
+                },
+                "ref": null,
+                "rendered": "Total Matches",
+                "type": "label",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "id": "total-matches",
+                  "onChange": [Function],
+                  "type": "number",
+                  "value": 12,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+            ],
+            "type": "div",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "New Game",
+            "className": "new-game",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "New Game",
+          "type": "button",
+        },
+      ],
+      "type": "header",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
