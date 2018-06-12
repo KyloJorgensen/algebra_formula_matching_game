@@ -14,7 +14,7 @@ class Header extends Component {
 		const { newGame, onChange, matches } = this.props;
 		return (
 			<header>
-				<h1>Alegbra Formula Matching Game</h1>
+				<h1>Algebra Formula Matching Game</h1>
 				<div className="total-matches-wrapper" >
 					<div>
 						<label htmlFor="total-matches">Total Matches</label>
