@@ -47,11 +47,13 @@ class App extends Component {
         <div>
           <Header newGame={newGame} onChange={onChange} matches={matches} />
           <Match cards={cards} newGame={newGame} clearMatch={clearMatch}/>
+          <a href="https://pixabay.com/photo-1426892/">source of card image</a>
         </div>
       </ClickOutside>
     );
   }
 }
+
 App.defaultProps = {
   possibleMatches: possibleMatches,
 };

@@ -71,6 +71,17 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./images/maths-1426892_640.png":
+/*!**************************************!*\
+  !*** ./images/maths-1426892_640.png ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "e2e03dd342a416350b210fd1889cabef.png";
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/index.js!./node_modules/less-loader/dist/cjs.js!./src/components/card/card.less":
 /*!********************************************************************************************************!*\
   !*** ./node_modules/css-loader!./node_modules/less-loader/dist/cjs.js!./src/components/card/card.less ***!
@@ -78,12 +89,13 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
+var escape = __webpack_require__(/*! ../../../node_modules/css-loader/lib/url/escape.js */ "./node_modules/css-loader/lib/url/escape.js");
 exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
 // module
-exports.push([module.i, ".card {\n  min-height: 100px;\n  background-color: #d2d2d2;\n  text-align: center;\n  position: relative;\n}\n.card > * {\n  margin: 0;\n  width: 90%;\n  font-size: 1em;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n}\n.card:hover {\n  background-color: #737272;\n}\n.card.selected,\n.card.selected:hover {\n  background-color: #e5f5e5;\n}\n.card.matched,\n.card.matched:hover {\n  background-color: #a5e8a5;\n}\n.card.not-matched,\n.card.not-matched:hover {\n  background-color: red;\n  color: white;\n}\n@media screen and (min-width: 700px) {\n  .card {\n    min-height: 200px;\n  }\n  .card > * {\n    font-size: 2em;\n  }\n}\n", ""]);
+exports.push([module.i, ".card {\n  min-height: 100px;\n  background-color: #d2d2d2;\n  background-image: url(" + escape(__webpack_require__(/*! ../../../images/maths-1426892_640.png */ "./images/maths-1426892_640.png")) + ");\n  background-repeat: no-repeat;\n  background-size: contain;\n  background-position: center;\n  text-align: center;\n  position: relative;\n}\n.card > * {\n  margin: 0;\n  width: 90%;\n  font-size: 1em;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  -webkit-transform: translate(-50%, -50%) rotateY(180deg);\n  -moz-transform: translate(-50%, -50%) rotateY(180deg);\n  -o-transform: translate(-50%, -50%) rotateY(180deg);\n  transform: translate(-50%, -50%) rotateY(180deg);\n}\n.card:hover {\n  background-color: #737272;\n}\n.card.selected,\n.card.selected:hover {\n  background-color: #e5f5e5;\n  background-image: none;\n  -webkit-transform: rotateY(180deg);\n  -moz-transform: rotateY(180deg);\n  -o-transform: rotateY(180deg);\n  transform: rotateY(180deg);\n  transition: 0.6s;\n  transform-style: preserve-3d;\n  position: relative;\n}\n.card.matched,\n.card.matched:hover {\n  background-image: none;\n  background-color: #a5e8a5;\n  -webkit-transform: rotateY(180deg);\n  -moz-transform: rotateY(180deg);\n  -o-transform: rotateY(180deg);\n  transform: rotateY(180deg);\n}\n.card.not-matched,\n.card.not-matched:hover {\n  background-color: red;\n  background-image: none;\n  color: white;\n  -webkit-transform: rotateY(180deg);\n  -moz-transform: rotateY(180deg);\n  -o-transform: rotateY(180deg);\n  transform: rotateY(180deg);\n  transition: 0.6s;\n  transform-style: preserve-3d;\n  position: relative;\n}\n@media screen and (min-width: 700px) {\n  .card {\n    min-height: 200px;\n  }\n  .card > * {\n    font-size: 2em;\n  }\n}\n", ""]);
 
 // exports
 
@@ -210,6 +222,33 @@ function toComment(sourceMap) {
 	var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;
 
 	return '/*# ' + data + ' */';
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/lib/url/escape.js":
+/*!***************************************************!*\
+  !*** ./node_modules/css-loader/lib/url/escape.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = function escape(url) {
+    if (typeof url !== 'string') {
+        return url
+    }
+    // If url is already wrapped in quotes, remove them
+    if (/^['"].*['"]$/.test(url)) {
+        url = url.slice(1, -1);
+    }
+    // Should url be wrapped?
+    // See https://drafts.csswg.org/css-values-3/#urls
+    if (/["'() \t\n]/.test(url)) {
+        return '"' + url.replace(/"/g, '\\"').replace(/\n/g, '\\n') + '"'
+    }
+
+    return url
 }
 
 
@@ -20199,7 +20238,12 @@ var App = function (_Component) {
           'div',
           null,
           _react2.default.createElement(_headerComponent2.default, { newGame: newGame, onChange: onChange, matches: matches }),
-          _react2.default.createElement(_matchComponent2.default, { cards: cards, newGame: newGame, clearMatch: clearMatch })
+          _react2.default.createElement(_matchComponent2.default, { cards: cards, newGame: newGame, clearMatch: clearMatch }),
+          _react2.default.createElement(
+            'a',
+            { href: 'https://pixabay.com/photo-1426892/' },
+            'source of card image'
+          )
         )
       );
     }

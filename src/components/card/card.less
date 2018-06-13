@@ -1,6 +1,10 @@
 .card {
     min-height: 100px;
     background-color: #d2d2d2;
+    background-image: url('../../../images/maths-1426892_640.png');    
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
     text-align: center;
     position: relative;
     > * {
@@ -10,7 +14,10 @@
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%);
+        -webkit-transform:  translate(-50%, -50%) rotateY(180deg);
+        -moz-transform:  translate(-50%, -50%) rotateY(180deg);
+        -o-transform:  translate(-50%, -50%) rotateY(180deg);
+        transform:  translate(-50%, -50%) rotateY(180deg);
     }
 }
 
@@ -20,15 +27,37 @@
 
 .card.selected, .card.selected:hover {
     background-color: #e5f5e5;
+    background-image: none;
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
 }
 
 .card.matched, .card.matched:hover {
+    background-image: none;
     background-color: #a5e8a5;
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
 }
 
 .card.not-matched, .card.not-matched:hover {
     background-color: red;
+    background-image: none;
     color: white;
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+
 }
 
 @media screen and (min-width: 700px) {
