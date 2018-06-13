@@ -129,7 +129,7 @@ ShallowWrapper {
       "addClickOutsideEventListener": [Function],
       "children": <div>
         <Header
-          matches={12}
+          matches={6}
           newGame={[Function]}
           onChange={[Function]}
         />
@@ -150,7 +150,7 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <Header
-            matches={12}
+            matches={6}
             newGame={[Function]}
             onChange={[Function]}
           />,
@@ -169,7 +169,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "matches": 12,
+            "matches": 6,
             "newGame": [Function],
             "onChange": [Function],
           },
@@ -205,7 +205,7 @@ ShallowWrapper {
         "addClickOutsideEventListener": [Function],
         "children": <div>
           <Header
-            matches={12}
+            matches={6}
             newGame={[Function]}
             onChange={[Function]}
           />
@@ -226,7 +226,7 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <Header
-              matches={12}
+              matches={6}
               newGame={[Function]}
               onChange={[Function]}
             />,
@@ -245,7 +245,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "class",
             "props": Object {
-              "matches": 12,
+              "matches": 6,
               "newGame": [Function],
               "onChange": [Function],
             },

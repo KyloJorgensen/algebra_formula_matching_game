@@ -13,7 +13,7 @@ class App extends Component {
     super(props);
     this.state = {
       cards: [],
-      matches: 12,
+      matches: 6,
       newGame: false,
       clearMatch: () => {},
     };

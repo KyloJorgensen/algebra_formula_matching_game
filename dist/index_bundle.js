@@ -83,7 +83,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".card {\n  min-height: 200px;\n  background-color: #d2d2d2;\n  text-align: center;\n  position: relative;\n}\n.card > * {\n  margin: 0;\n  width: 90%;\n  font-size: 2em;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n}\n.card:hover {\n  background-color: #737272;\n}\n.card.selected,\n.card.selected:hover {\n  background-color: #e5f5e5;\n}\n.card.matched,\n.card.matched:hover {\n  background-color: #a5e8a5;\n}\n.card.not-matched,\n.card.not-matched:hover {\n  background-color: red;\n  color: white;\n}\n", ""]);
+exports.push([module.i, ".card {\n  min-height: 100px;\n  background-color: #d2d2d2;\n  text-align: center;\n  position: relative;\n}\n.card > * {\n  margin: 0;\n  width: 90%;\n  font-size: 1em;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n}\n.card:hover {\n  background-color: #737272;\n}\n.card.selected,\n.card.selected:hover {\n  background-color: #e5f5e5;\n}\n.card.matched,\n.card.matched:hover {\n  background-color: #a5e8a5;\n}\n.card.not-matched,\n.card.not-matched:hover {\n  background-color: red;\n  color: white;\n}\n@media screen and (min-width: 700px) {\n  .card {\n    min-height: 200px;\n  }\n  .card > * {\n    font-size: 2em;\n  }\n}\n", ""]);
 
 // exports
 
@@ -102,7 +102,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "header {\n  display: flex;\n  justify-content: space-evenly;\n}\nheader .total-matches-wrapper {\n  position: relative;\n}\nheader .total-matches-wrapper > * {\n  margin: 0;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n}\n", ""]);
+exports.push([module.i, "header {\n  display: flex;\n  justify-content: space-evenly;\n  flex-wrap: wrap;\n}\nheader .total-matches-wrapper {\n  position: relative;\n  min-width: 200px;\n  min-height: 50px;\n}\nheader .total-matches-wrapper > * {\n  margin: 0;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n}\n", ""]);
 
 // exports
 
@@ -121,7 +121,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".match-wrapper ul {\n  list-style: none;\n  padding: 0.5em;\n  display: grid;\n  grid-gap: 1em;\n  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));\n}\n", ""]);
+exports.push([module.i, ".match-wrapper ul {\n  list-style: none;\n  padding: 0.5em;\n  display: grid;\n  grid-gap: 1em;\n  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));\n}\n@media screen and (min-width: 700px) {\n  .match-wrapper ul {\n    list-style: none;\n    padding: 0.5em;\n    display: grid;\n    grid-gap: 1em;\n    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));\n  }\n}\n", ""]);
 
 // exports
 
@@ -20154,7 +20154,7 @@ var App = function (_Component) {
 
     _this.state = {
       cards: [],
-      matches: 12,
+      matches: 6,
       newGame: false,
       clearMatch: function clearMatch() {}
     };

@@ -23,7 +23,7 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <h1>
-          Alegbra Formula Matching Game
+          Algebra Formula Matching Game
         </h1>,
         <div
           className="total-matches-wrapper"
@@ -57,10 +57,10 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Alegbra Formula Matching Game",
+          "children": "Algebra Formula Matching Game",
         },
         "ref": null,
-        "rendered": "Alegbra Formula Matching Game",
+        "rendered": "Algebra Formula Matching Game",
         "type": "h1",
       },
       Object {
@@ -160,7 +160,7 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <h1>
-            Alegbra Formula Matching Game
+            Algebra Formula Matching Game
           </h1>,
           <div
             className="total-matches-wrapper"
@@ -194,10 +194,10 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "Alegbra Formula Matching Game",
+            "children": "Algebra Formula Matching Game",
           },
           "ref": null,
-          "rendered": "Alegbra Formula Matching Game",
+          "rendered": "Algebra Formula Matching Game",
           "type": "h1",
         },
         Object {

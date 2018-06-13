@@ -52,7 +52,7 @@ describe('Interaction', () => {
 	describe('number of pairs', () => {
 		it('should start at 12 pairs', () => {
 			const wrapper = mount(<App></App>);
-			expect(wrapper.find('li.card').length).toEqual(24);
+			expect(wrapper.find('li.card').length).toEqual(12);
 		});
 
 		it('should have 20 pairs', () => {
